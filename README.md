@@ -1,1 +1,1 @@
-![devops-word-cloud-concept-on-black-background-2BMAMDF](https://user-images.githubusercontent.com/61273477/131998205-f653c6c3-5ada-47e5-af99-24a1b8007890.jpg)
+![devops-word-cloud-concept-on-black-background-2BMAMDF](https://user-images.githubusercontent.com/61273477/131998507-250b6ef7-1155-41fb-aa0e-06740ae4db79.jpg)

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dount-app
+  labels:
+     app: dountyapp
+     tier: front-end
+spec:
+  containers:
+     - name: dount-ctr
+       image: nginx
+
+

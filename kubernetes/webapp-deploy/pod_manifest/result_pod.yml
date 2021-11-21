@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: result-pod
+  labels:
+    tier: front-end
+    app: result-app
+
+spec:
+  containers:
+   - name: result-ctr
+     image: dountless/webapp:result
+     ports:
+      - containerPort: 80

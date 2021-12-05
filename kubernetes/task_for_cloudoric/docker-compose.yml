@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+   webapp:
+      build: .
+      ports:
+       - 5000:5000
+      networks:
+       - front-end
+
+   redis:
+     image: redis
+     networks:
+       - front-end
+     volumes:
+      - db-data:/data 
+
+
+    
+networks:
+  front-end:
+volumes:
+  db-data:      

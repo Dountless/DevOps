@@ -4,13 +4,15 @@ metadata:
    name: redis
    labels:
      app: redis-db
-     tier: front-end
+     tier: back-end
 spec:
   ports:
    - targetPort: 6379
      port: 6379
      
   selector:
-    tier: back-end
-    app: redis-db
+        app: redis-app
+        tier: back-end
+
+
 

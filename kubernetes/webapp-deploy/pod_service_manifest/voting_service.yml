@@ -12,8 +12,8 @@ spec:
      port: 80
      nodePort: 30004
   selector:
-    tier: front-end
-    app: voting-app
+      app: voting-app
+      tier: front-end
 
 
 

@@ -4,13 +4,15 @@ metadata:
   name: db
   labels:
      name: postgres-service
-     tier: front-end
+     tier: back-end
 spec:
    ports:
     - targetPort: 5432
       port: 5432
    selector:
-    tier: back-end
-    app: postgres-db
+        app: postgres-app
+        tier: back-end
+
+
 
 

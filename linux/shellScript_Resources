@@ -1,0 +1,10 @@
+
+Free Shell Scripting Resources:
+1. https://bash.cyberciti.biz/guide/Main_Page
+2. https://tldp.org/LDP/abs/html/
+
+Curated Github Repo for Scripting: https://github.com/awesome-lists/awesome-bash
+
+MySQL Script: https://github.com/docker-library/mysql/blob/master/8.0/docker-entrypoint.sh
+
+LDAP Docker entry point Script: https://github.com/osixia/docker-openldap/blob/master/image/service/slapd/startup.sh

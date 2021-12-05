@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: voting-deploy
+  labels:
+    tier: front-end
+
+spec:
+  template:
+     metadata:
+        name: voting-pod
+        labels:
+          app: voting-app
+          tier: front-end
+     spec:
+       containers:
+        - name: voting-ctr
+          image: dountless/webapp:voting
+          ports:
+           - containerPort: 80
+
+  replicas: 4
+  selector:
+    matchLabels:
+       app: voting-app
+    
